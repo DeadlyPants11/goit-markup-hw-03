@@ -1,0 +1,247 @@
+:root {
+  --color-text1: #ffffff;
+  --color-text2: #212121;
+  --color-text3: #757575;
+  --color-main1-footer: #2f303a;
+  --color-main2: #f5f4fa;
+  --color-logo: #2196f3;
+  --black-: #000000;
+  --btn-: #1766a7;
+}
+
+body {
+  background: var(--color-text1);
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text2);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+/* Start Header  */
+
+.log {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--color-logo);
+}
+
+.logo-one {
+  color: var(--black-);
+}
+
+.logo-two {
+  color: var(--color-text1);
+}
+
+.menu {
+  list-style-type: none;
+}
+.menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text2);
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  color: var(--color-logo);
+}
+
+.menu-item:focus {
+  color: var(--color-logo);
+}
+
+.currentLink {
+  color: var(--color-logo);
+}
+
+.menu-contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text3);
+  text-decoration: none;
+}
+
+.menu-contact:hover {
+  color: var(--color-logo);
+}
+
+.menu-contact:focus {
+  color: var(--color-logo);
+}
+
+/* End Header  */
+
+/* Start Main Index */
+
+.chapter-head {
+  width: 1600px;
+  height: 600px;
+  background-color: var(--color-main1-footer);
+}
+
+.chapter-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  color: var(--color-text1);
+  text-transform: uppercase;
+}
+
+.chapter-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-text1);
+  width: 216px;
+  height: 50px;
+  letter-spacing: 0.06em;
+  background: var(--color-logo);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.chapter-btn:hover {
+  background: var(--btn-);
+}
+
+.chapter-btn:focus {
+  background: var(--btn-);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  color: var(--color-text2);
+}
+
+.menu-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+}
+
+.menu-text-two {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-text3);
+}
+
+.menu-text-two-w {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--color-text3);
+}
+
+.menu-text-three {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.chapter-end {
+  width: 1600px;
+  background: var(--color-main2);
+}
+
+.worker {
+  width: 270px;
+  background: var(--color-text1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+/* End Main Index */
+
+/* Start Main Portfolio  */
+
+.menu-btn {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background: var(--color-main2);
+  border-radius: 4px;
+  border: none;
+}
+
+.menu-btn:hover {
+  background: var(--color-logo);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--color-text1);
+}
+
+.menu-btn:focus {
+  background: var(--color-logo);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--color-text1);
+}
+
+.menu-text-p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-text2);
+}
+
+.menu-text-two-p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--color-text3);
+}
+
+.wall {
+  width: 370px;
+  height: 404px;
+  background: var(--color-text1);
+  border: 1px solid #eeeeee;
+}
+
+/* End Main Portfolio  */
+
+/* Start Footer  */
+
+.ftr {
+  width: 1600px;
+  height: 252px;
+  background: var(--color-main1-footer);
+}
+
+.menu-contact-f {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--color-text3);
+  text-decoration: none;
+}
+
+.adres {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--color-text1);
+  text-decoration: none;
+}
+
+/* End Footer  */
