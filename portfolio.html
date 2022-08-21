@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/modern-normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Portfolio</title>
   </head>
@@ -27,7 +28,9 @@
                 <a class="menu-item" href="./index.html">Студія</a>
               </li>
               <li>
-                <a class="menu-item  currentLink" href="./portfolio.html">Портфоліо</a>
+                <a class="menu-item currentLink" href="./portfolio.html"
+                  >Портфоліо</a
+                >
               </li>
               <li><a class="menu-item" href="#">Контакти</a></li>
             </ul>
@@ -48,107 +51,145 @@
       </div>
     </header>
     <main>
-      <section class="section port">
-        <h1 class="title">Портфолио</h1>
+      <section class="port">
+        <h1 class="title-one">Портфолио</h1>
         <ul class="menu-port">
-          <li><button class="menu-btn" type="button">Усі</button></li>
-          <li><button class="menu-btn" type="button">Веб-сайти</button></li>
-          <li><button class="menu-btn" type="button">Додатки</button></li>
-          <li><button class="menu-btn" type="button">Дизайн</button></li>
-          <li><button class="menu-btn" type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="menu-wall card-set">
-          <li class="wall">
-            <img
-              src="./images/portfolio1.jpg"
-              alt="WebSite"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Технокряк</h2>
-            <p class="menu-text-two-p">Веб-сайт</p>
+          <li>
+            <button class="menu-btn" type="button"><span>Усі</span></button>
           </li>
-          <li class="wall">
-            <img
-              src="./images/portfolio2.jpg"
-              alt="Design"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Постер New Orlean vs Golden Star</h2>
-            <p class="menu-text-two-p">Дизайн</p>
+          <li>
+            <button class="menu-btn" type="button">
+              <span>Веб-сайти</span>
+            </button>
           </li>
-          <li class="wall">
-            <img
-              src="./images/portfolio3.jpg"
-              alt="Application"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Ресторан Seafood</h2>
-            <p class="menu-text-two-p">Додаток</p>
+          <li>
+            <button class="menu-btn" type="button">
+              <span>Додатки</span>
+            </button>
           </li>
-          <li class="wall">
-            <img
-              src="./images/portfolio4.jpg"
-              alt="Marketing"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Проєкт Prime</h2>
-            <p class="menu-text-two-p">Маркетинг</p>
+          <li>
+            <button class="menu-btn" type="button">
+              <span>Дизайн</span>
+            </button>
           </li>
-          <li class="wall">
-            <img
-              src="./images/portfolio5.jpg"
-              alt="Application"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Проєкт Boxes</h2>
-            <p class="menu-text-two-p">Додаток</p>
-          </li>
-          <li class="wall">
-            <img
-              src="./images/portfolio6.jpg"
-              alt="WebSite"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Inspiration has no Borders</h2>
-            <p class="menu-text-two-p"> Веб-сайт</p>
-          </li>
-          <li class="wall">
-            <img
-              src="./images/portfolio7.jpg"
-              alt="WebSite"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Видання Limited Edition</h2>
-            <p class="menu-text-two-p">Дизайн</p>
-          </li>
-          <li class="wall">
-            <img
-              src="./images/portfolio8.jpg"
-              alt="Marketing"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Проєкт LAB</h2>
-            <p class="menu-text-two-p">Маркетинг</p>
-          </li>
-          <li class="wall">
-            <img
-              src="./images/portfolio9.jpg"
-              alt="Application"
-              width="370"
-              height="295"
-            />
-            <h2 class="menu-text-p">Growing Business</h2>
-            <p class="menu-text-two-p">Додаток</p>
+          <li>
+            <button class="menu-btn" type="button">
+              <span>Маркетинг</span>
+            </button>
           </li>
         </ul>
+        <div class="container">
+          <ul class="menu-wall card-set">
+            <li class="wall">
+              <img
+                src="./images/portfolio1.jpg"
+                alt="WebSite"
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Технокряк</h2>
+              <p class="menu-text-two-p">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="wall">
+              <img
+                src="./images/portfolio2.jpg"
+                alt="Design"
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Постер New Orlean vs Golden Star</h2>
+              <p class="menu-text-two-p">Дизайн</p>
+              </div>
+            </li>
+            <li class="wall">
+              <img
+                src="./images/portfolio3.jpg"
+                alt="Application"
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Ресторан Seafood</h2>
+              <p class="menu-text-two-p">Додаток</p>
+              </div>
+            </li>
+            <li class="wall">
+              <img
+                src="./images/portfolio4.jpg"
+                alt="Marketing
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Проєкт Prime</h2>
+              <p class="menu-text-two-p">Маркетинг</p>
+              </div>
+            </li>
+            <li class="wall">
+              <img
+                src="./images/portfolio5.jpg"
+                alt="Application"
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Проєкт Boxes</h2>
+              <p class="menu-text-two-p">Додаток</p>
+              </div>
+            </li>
+            <li class="wall">
+              <img
+                src="./images/portfolio6.jpg"
+                alt="WebSite"
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Inspiration has no Borders</h2>
+              <p class="menu-text-two-p">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="wall">
+              <img
+                src="./images/portfolio7.jpg"
+                alt="WebSite"
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Видання Limited Edition</h2>
+              <p class="menu-text-two-p">Дизайн</p>
+              </div>
+            </li>
+            <li class="wall">
+              <img
+                src="./images/portfolio8.jpg"
+                alt="Marketing"
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Проєкт LAB</h2>
+              <p class="menu-text-two-p">Маркетинг</p>
+              </div>
+            </li>
+            <li class="wall">
+              <img
+                src="./images/portfolio9.jpg"
+                alt="Application"
+                width="370"
+                height="295"
+              />
+              <div class="wall-text">
+              <h2 class="menu-text-p">Growing Business</h2>
+              <p class="menu-text-two-p">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="ftr">
