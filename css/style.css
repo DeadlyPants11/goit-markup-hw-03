@@ -330,11 +330,12 @@ section {
 .menu-port {
   display: flex;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .menu-wall {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .card-set {
